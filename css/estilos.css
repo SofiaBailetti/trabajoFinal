@@ -43,6 +43,17 @@ header{
 .inicio {
   display: flex;
   justify-content: flex-end;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inicio a,
+.inicio img {
+  margin-right: 10px; 
+}
+
+.inicio img.luna {
+  margin-right: 0; 
 }
 
 .modo-nocturno {

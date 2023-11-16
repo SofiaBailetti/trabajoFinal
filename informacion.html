@@ -12,6 +12,7 @@
 </head>
 <body>
   <main>
+<div id="contenido" class="modo-dia">
 <header id="inicio">
   <div class="fondo-header">
     <img class="foto-header" src="./imagenes/fondito.png" alt="fondo">
@@ -59,7 +60,7 @@
         enfrentamos estos desafíos y celebramos los triunfos en el camino hacia la construcción de familias felices y saludables.</p>
     </div>
   </section>
-<h1 class="title">Alpine slider</h1>
+  <br>
 <div class="slider" x-data="{start: true, end: false}">
   <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
     <div class="slider__item">

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Varela+Round&display=swap');
 
 
 /* SECCION INDEX */
@@ -45,6 +45,7 @@ header{
   justify-content: flex-end;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 5px;
 }
 
 .inicio a,
@@ -89,12 +90,13 @@ nav {
   border-radius: 20px;
   border: 3px solid #3e64af;
   color: #4B0082;
-  font-family: 'Playpen';
+  font-family: "Varela Round";
   cursor: pointer;
   margin: 5px;
   padding: 3px 10px;
   font-weight: bold;
   font-size: small;
+  text-decoration: none;
 }
 
 .titulo {
@@ -109,7 +111,7 @@ nav {
 }
 
 .texto-bienvenida p{
-  font-family: "Playpen";
+  font-family: "Varela Round";
   text-align: center;
   color: #DA70D6;
   font-weight: bold;
@@ -126,15 +128,30 @@ nav {
   border-radius: 40px;
 }
 
+.line {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+  height: 4px;
+  background: #3e64af;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
 .team_section {
   text-align: center;
-  font-family: 'Playpen';
+  font-family: "Varela Round";
 }
 
 .subtitulo {
   font-family: 'Agbalumo';
   color: #4B0082;
   font-weight: bold;
+}
+
+.profesion {
+  font-size: small;
+  font-weight: lighter;
 }
 
 .texto-team {
@@ -146,7 +163,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-bottom: 2px solid #4B0082;
 }
   
 .team_card {
@@ -176,7 +192,7 @@ nav {
 }
 
 .client_section {
-  font-family: 'Playpen', sans-serif;
+  font-family: Varela Round;
 }
 
 .custom_heading-container a{
@@ -196,7 +212,6 @@ nav {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  border-bottom: 2px solid #4B0082;
   padding-bottom: 30px;
 }
   
@@ -294,8 +309,8 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #3e64af;
-  font-family: 'Playpen', sans-serif;
+  color: #DA70D6;
+  font-family: "Varela Round";
   font-weight: bold;
 }
 
@@ -307,7 +322,7 @@ footer a {
   content: "";
   display: block;
   height: 3px;
-  background-color: #DA70D6;
+  background-color:#3e64af;
   transform: scale(0,1);
   transform-origin: center;
   transition: transform .25s;
@@ -341,7 +356,7 @@ footer a {
 
 figure {
   position: relative;
-  width: calc(33.33% - 20px);;
+  width: calc(33.33% - 20px);
   height: 320px;
   overflow: hidden;
   margin-bottom: 20px;
@@ -374,7 +389,7 @@ figcaption {
 .caption-full {
   opacity: 0;
   margin-top: 10px;
-  font-size: small;
+  font-size: smaller;
 }
 
 .expanded {
@@ -396,16 +411,15 @@ figcaption {
 /* SECCION INFORMACION */
 .tresd {
   min-height: 300px;
-  margin: 20px 0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Varela Round";
   color: #fefefe;
 }
   
 .tresd .container {
   position: relative;
   width: 320px;
-  margin: 40px auto 0 auto;
+  margin: 10px auto 0 auto;
   perspective: 2000px;
 }
   
@@ -587,10 +601,10 @@ figcaption {
 
 .slider__info h2 {
   color: #fff;
-  font-family: system-ui;
+  font-family: "Varela Round";
   line-height: 1.1;
   font-weight: 300;
-  font-size: 1.75rem;
+  font-size: large;
   margin: 0;
 }
 
@@ -613,7 +627,7 @@ figcaption {
 }
 
 .slider__nav__button {
-  font-family: "PlayPen";
+  font-family: "Varela Round";
   color: #4B0082;
   font-size: smaller;
   line-height: 1;
